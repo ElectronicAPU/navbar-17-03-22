@@ -1,0 +1,111 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+.yellowbox {
+  /* border: 0.2rem solid rgb(51, 133, 241); */
+  background-color: rgb(51, 133, 241);
+}
+
+.greenbox {
+  height: 6rem;
+  /* border: 0.2rem solid black; */
+  /* margin: 0.5rem; */
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+}
+
+.redbox {
+  width: 12rem;
+  height: 80%;
+  /* border: 0.2rem solid black; */
+  margin: 0.5rem;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in {
+  width: 82%;
+  /* border: 0.2rem solid black; */
+  margin: 0.5rem;
+  /* background-color: blue; */
+  display: flex;
+}
+
+.in2 {
+  width: 65%;
+  /* border: 0.2rem solid white; */
+}
+
+.bluebox {
+  width: 35%;
+  /* background-color: rgb(135, 135, 224); */
+  /* border: 0.2rem solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+ul {
+  display: flex;
+  font-size: large;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  margin: 0rem 1.5rem;
+  color: white;
+  text-align: left;
+  font-size: 2.3rem;
+}
+
+.purplebox {
+  width: 20rem;
+  /* border: 0.2rem solid black; */
+  margin: 0.5rem;
+  background-color: white;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.purplebox h1 a {
+  color: rgb(162, 0, 255);
+  text-decoration: none;
+  /* font-family: Monospace; */
+  font-size: 2.3rem;
+}
+
+.redbox h1 {
+  color: white;
+  text-decoration: none;
+  font-family: Monospace;
+  font-size: 2.5rem;
+}
+
+.hello {
+  height: 91.65rem;
+  /* background-color: rgb(236, 236, 196); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
